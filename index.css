@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Times New Roman", Georgia, Serif; */
+    font-family: sans-serif;
+
+}
+
+header {
+    /* border: 1px solid; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+
+}
+
+header.h_one {
+    color: black;
+    text-decoration: none;
+
+}
+
+header div .two {
+    height: 10px;
+    color: black;
+    padding: 20px 50px;
+}
+
+.pizza {
+    position: relative;
+}
+
+.pizza>p {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 50px;
+    color: rgb(176, 176, 176);
+}
+
+.card {
+    display: flex;
+
+
+}
+
+.card img {
+    width: 500px;
+    padding: 64px 70px;
+}
+
+.card.bg {
+    border: 1px solid;
+
+}
+
+.card .bg>h1 {
+    padding-right: 164px;
+    padding-top: 64px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.card .bg>p {
+    padding-right: 160px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bg div.p_one {
+    text-align: left;
+    padding-right: 70px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.input {
+    display: flex;
+    padding: 90px 80px;
+    border-top: 1px solid rgb(121, 124, 128);
+}
+
+.img_two {
+    width: 500px;
+    padding-left: 150px;
+}
+
+.heading_two h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.bgmi>h4 {
+    font-size: 20px;
+}
+
+.bgmi>p,
+h4 {
+    padding-top: 40px;
+}
+
+.contect {
+    padding: 64px 70px;
+}
+
+.bgm h1 {
+    padding: 30px 0px;
+    font-size: 40px;
+}
+
+.bgm p {
+    padding: 30px 0px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 25px 0px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+
+form button {
+    height: 35px;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.539);
+    margin: 20px 0px;
+}
+
+footer {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+}
+
+@media only screen and (max-width:480px){
+    body{
+        border: 2px solid red;
+    }
+    header div{
+        display: none;
+    }
+    header a{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .pizza>p {
+        font-size: 40px;
+        top: 79%;
+    }
+    .card {
+        margin: 40px;
+        text-align: center;
+    }
+    .card .bg{
+        text-align: center;
+    }
+    .card .img{
+        display: none;
+    }
+    .card .bg>p{
+        padding: 0px;
+        padding: 20px 0px;
+    }
+    .card .bg>h1{
+        padding:0px ;
+    }
+    .bg div.p_one{
+        padding: 0px;
+    }
+    .input {
+        display: block;
+        padding: 0px;
+        border:none;
+    }
+    .bgmi{
+        margin-left: 40px;
+    }
+    .img_two{
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .img_two img{
+        width: 85%;
+        margin: 35px;
+    }
+    .contect{
+        padding: 0px;
+        padding: 20px;
+    }
+}
+
+
